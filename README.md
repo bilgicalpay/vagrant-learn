@@ -22,11 +22,21 @@ işletim sistemine göre developer arkadaşlar aşağıdaki linkten vagrant kuru
 https://www.vagrantup.com/downloads.html
 
 
+# Chef 
+
+Chef kurulumu için aşağıdaki link kullanılabilir. 
+Ansible, puppet, chef. Tercihim Ansible, ancak hızlı olması açısından chef'e aşinalığımdan chef seçtim .
+
+
+https://packages.chef.io/files/stable/chefdk/4.5.0/windows/2012r2/chefdk-4.5.0-1-x64.msi
+
+
+
 # Berks
 
 Berks maven gibi paket ve dependency management aracı.
 cookbook ları yüklemek için berks plugini gerekmekte.
-vagrant kurulduktan sonra  (cmd-bash tanımaya bilir. bash-cmd aç kapa veya os reboot sonrası aşağıdaki koumutu çalıştır.)
+chef kurulduktan sonra  (cmd-bash tanımaya bilir. bash-cmd aç kapa veya os reboot sonrası aşağıdaki koumutu çalıştır.)
 vagrant plugin install vagrant-berkshelf
 
 # bootstrap.sh
