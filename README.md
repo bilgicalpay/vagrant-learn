@@ -1,6 +1,6 @@
 # Vagrant ile python uygulaması
 
-h3 Amaç:
+H3 Amaç:
 
 flask app-->gunicorn (WSGI server)-->nginx
 DB: MySql with persistent volume
