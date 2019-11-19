@@ -22,11 +22,12 @@ içine kurlum, dosya ve yetki işlemleri gibi işlemleri koyacağız.
 
 # ilk Vagrant Box
 
-
 Bir kllasor olusturalım ve içine girip makinemize  vagrant, berks ve bootstrap dosyalarımızı koyalım.
 
-mkdir vagrant-learn
+mkdir vagrant-learn 
+
 cd vagrant-learn
+
 bash: vagrant init
 
 
