@@ -53,7 +53,7 @@ mkdir vagrant-learn
 
 cd vagrant-learn
 
-bash: vagrant init
+bash: vagrant init (buna gerek yok. Template Vagrantfile oluşturuyor.)
 
 
 git clone https://github.com/bilgicalpay/vagrant-learn.git
