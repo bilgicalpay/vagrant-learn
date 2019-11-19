@@ -6,7 +6,7 @@ https://mehmetseven.net/berkshelf-paket-yonetimi/
 
 # Vagrant ile python uygulaması
 
-H3 Amaç:
+# Amaç:
 
 flask app-->gunicorn (WSGI server)-->nginx
 DB: MySql with persistent volume
