@@ -27,7 +27,14 @@ Bir kllasor olusturalım ve içine girip makinemize  vagrant, berks ve bootstrap
 
 mkdir vagrant-learn
 cd vagrant-learn
+bash: vagrant init
+
 
 git clone https://github.com/bilgicalpay/vagrant-learn.git
+
+berks install 
+
+vagrant up
+
 
 
