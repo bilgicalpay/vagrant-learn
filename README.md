@@ -69,3 +69,24 @@ vagrant provision
 (arada cookbook vs değiştirirsek "vagrant destroy" ve ardından "vagrant up" da yapabiliriz veya "vagrant --reload provision" da diyebiliriz.)
 
 
+
+kurulumlar bitti ise aşağıdaki satırları cmd içinde çalıştır.
+
+  mkdir deneme-app
+  cd deneme-app
+  git clone https://github.com/bilgicalpay/vagrant-learn.git
+  cd vagrant-learn
+  berks install
+  vagrant up
+  vagrant ssh
+  
+  
+  Makinenin içindeyiz.
+  
+  bundan sonra linux ile devam.
+  
+  cd /var/www/
+  ls -ltr
+  
+
+
