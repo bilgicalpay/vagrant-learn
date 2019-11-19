@@ -1,5 +1,5 @@
 
-# öncelikle öğrenmemdeki ilk adımı attığım kaynağı ekleyeyim.
+# Öncelikle öğrenmemdeki ilk adımı attığım kaynağı ekleyeyim.
 
 https://mehmetseven.net/berkshelf-paket-yonetimi/
 
