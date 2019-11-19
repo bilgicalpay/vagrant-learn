@@ -1,3 +1,9 @@
+
+# öncelikle öğrenmemdeki ilk adımı attığım kaynağı ekleyeyim.
+
+https://mehmetseven.net/berkshelf-paket-yonetimi/
+
+
 # Vagrant ile python uygulaması
 
 H3 Amaç:
