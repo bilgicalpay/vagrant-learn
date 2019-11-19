@@ -1,8 +1,8 @@
 DEPENDENCIES
   apt (~> 7.2.0)
   bash
-  flash (~> 2.0.0)
   git
+  gunicorn (~> 2.0.0)
   python
   yum
 
@@ -13,9 +13,9 @@ GRAPH
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
   chef_handler (3.0.3)
-  flash (2.0.0)
-    windows (~> 1.38)
   git (10.0.0)
+  gunicorn (2.0.0)
+    python (>= 0.0.0)
   mingw (2.1.0)
     seven_zip (>= 0.0.0)
   python (1.4.6)

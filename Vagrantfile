@@ -4,7 +4,6 @@ Vagrant.configure("2") do |config|
 	config.vm.provider :virtualbox do |vb|
       vb.gui = true
   end
-
   # Berkshelf
   config.berkshelf.enabled = true
   config.berkshelf.berksfile_path = "./Berksfile"
@@ -19,9 +18,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "python"
 	
 	# Provision
-  config.vm.provision :shell, :path => "bootstrap.sh"
-	
- 
+  config.vm.provision :shell, :path => "/vagrant/bootstrap.sh" 
   end
   
 end
