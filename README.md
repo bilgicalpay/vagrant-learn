@@ -135,7 +135,7 @@ Normal şekilde kurun
  
  
  
- # şimdi de velopment ortamında minikube 'ü vagrant ile kaldırıp python uygulamasını docker içinde çalıştıracağız.
+ # şimdi de development ortamında minikube 'ü vagrant ile kaldırıp python uygulamasını docker içinde çalıştıracağız.
  
  
 herşey iyi ise developer docker image'ını tagleyip pushlayacak. (versionlu şekilde)
