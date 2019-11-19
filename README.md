@@ -97,3 +97,43 @@ kurulumlar bitti ise aşağıdaki satırları cmd içinde çalıştır.
   
 
 
+
+
+# Minikube ve Kubernetes Dashboard 
+
+(Bunları elle bilgisayarımıza kuruyoruz. sonraki adımda bunları da vagrant içine alalım.)
+
+# minikube install dosyası
+
+https://github-production-release-asset-2e65be.s3.amazonaws.com/56353740/ed18e580-fbf2-11e9-9c5f-d918c15a0ef8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191119T125252Z&X-Amz-Expires=300&X-Amz-Signature=1c2faabe44a94bbd5b2ba55131ba760bdfbc3b21e10e31ea8c8371dcae38e6d8&X-Amz-SignedHeaders=host&actor_id=5606760&response-content-disposition=attachment%3B%20filename%3Dminikube-installer.exe&response-content-type=application%2Foctet-stream
+
+Normal şekilde kurun
+
+
+# kubectl 
+
+ https://storage.googleapis.com/kubernetes-release/release/v1.16.0/bin/windows/amd64/kubectl.exe
+ 
+ env path'e ekleyin (eski ise güncelleyin.)
+ 
+ 
+ 
+ sonra komut satısına 
+ 
+ CMD> "minikube start"
+ 
+ ardından 
+ 
+ CMD> "minikube dashboard"
+ 
+ bende kubernetes yönetim portali bu adreste açıldı. Sizde de  kendisi açılacaktır.
+ 
+ http://127.0.0.1:50369/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/persistentvolume?namespace=default
+ 
+ 
+ 
+ 
+ 
+
+
+
