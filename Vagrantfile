@@ -11,8 +11,7 @@ Vagrant.configure("2") do |config|
 
   # Senkronizasyon
   config.vm.synced_folder "E:\\vagrant-apps\\mn\\public" , "/var/www/"
-  
-  
+   
    # Provision
   config.vm.provision :chef_solo do |chef|
     chef.add_recipe "flask"
@@ -22,8 +21,7 @@ Vagrant.configure("2") do |config|
 	# Provision
   config.vm.provision :shell, :path => "bootstrap.sh"
 	
-  
-  
+ 
   end
   
 end
