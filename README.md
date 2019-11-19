@@ -1,3 +1,12 @@
+# Vagrant ile python uygulaması
+
+h3 Amaç:
+
+flask app-->gunicorn (WSGI server)-->nginx
+DB: MySql with persistent volume
+Platform: K8
+
+
 # Kurulumlar
 
 #Vagrant
@@ -37,5 +46,10 @@ berks install
 
 vagrant up
 
+vagrant halt
+
+vagrant provision
+
+(arada cookbook vs değiştirirsek "vagrant destroy" ve ardından "vagrant up" da yapabiliriz veya "vagrant --reload provision" da diyebiliriz.)
 
 
