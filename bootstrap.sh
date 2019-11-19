@@ -34,9 +34,9 @@ sudo cp /vagrant/* /var/www/codebase
 #
 git clone https://gist.github.com/vedit/32f37e0b8f842521fbc89e9d8e2bfaf9
 #
-sudo cp /var/www/codebase/32f37e0b8f842521fbc89e9d8e2bfaf9/application.py ../
+sudo cp /var/www/32f37e0b8f842521fbc89e9d8e2bfaf9/application.py ../
 ## asagidaki çalıştı
-python /var/www/codebase/application.py
+python /var/www/application.py
 #  gunicorn istemişler onda kod hata veriyore gunicorn ile
 ###Traceback (most recent call last):
 ###  File "/home/vagrant/.local/bin/gunicorn", line 7, in <module>
