@@ -28,6 +28,6 @@ Bir kllasor olusturalım ve içine girip makinemize  vagrant, berks ve bootstrap
 mkdir vagrant-learn
 cd vagrant-learn
 
-git clone 
+git clone https://github.com/bilgicalpay/vagrant-learn.git
 
 
