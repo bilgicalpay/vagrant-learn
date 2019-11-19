@@ -15,7 +15,7 @@ Platform: K8
 
 # Kurulumlar
 
-#Vagrant
+# Vagrant
 
 işletim sistemine göre developer arkadaşlar aşağıdaki linkten vagrant kurulumunu yapmalıdır.
 
