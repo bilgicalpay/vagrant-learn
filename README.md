@@ -14,7 +14,20 @@ cookbook ları yüklemek için berks plugini gerekmekte.
 vagrant kurulduktan sonra  (cmd-bash tanımaya bilir. bash-cmd aç kapa veya os reboot sonrası aşağıdaki koumutu çalıştır.)
 vagrant plugin install vagrant-berkshelf
 
+# bootstrap.sh
+
+Bu makine açıldığında içinde çalışacak bash dosyasıdır. 
+
+içine kurlum, dosya ve yetki işlemleri gibi işlemleri koyacağız.
+
 # ilk Vagrant Box
 
 
-bir kllasor olusturalım  ve içine girip makinemize git clone diyelim 
+Bir kllasor olusturalım ve içine girip makinemize  vagrant, berks ve bootstrap dosyalarımızı koyalım.
+
+mkdir vagrant-learn
+cd vagrant-learn
+
+git clone 
+
+
