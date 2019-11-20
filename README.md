@@ -135,12 +135,16 @@ Normal şekilde kurun
  
  
  
- # şimdi de development ortamında minikube 'ü vagrant ile kaldırıp python uygulamasını docker içinde çalıştıracağız.
+ # şimdi de development ortamında k8'i  vagrant ile kaldırıp python uygulamasını docker içinde çalıştıracağız.
  
  
 herşey iyi ise developer docker image'ını tagleyip pushlayacak. (versionlu şekilde)
 
 ardından prod ortamındaki kubernetes'e bu docker image'ı nı deploy edeceğiz.
+
+
+
+
 
 
 
