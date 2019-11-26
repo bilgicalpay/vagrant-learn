@@ -30,7 +30,9 @@ spec:
           env:
             # Use secret in real usage
             - name: MYSQL_ROOT_PASSWORD
-              value: pass123
+              value: pass123   # Bunu daha sonra k8 dashboad üzerinden, openshift üzerinden veya v hashicorp vault, cyberark gibi bir yerlere kaydedip env. dan çekmek gerek. 
+              
+              
           ports:
             - containerPort: 3306
               name: mysql
