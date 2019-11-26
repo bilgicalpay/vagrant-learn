@@ -6,6 +6,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "geerlingguy/ubuntu1604"
 
+  
+  # aşağıdaki admin panele gerek yok. ben denemek için koydum. istenirse kaldırılır
   config.vm.network "forwarded_port", guest: 8001, host: 8001 #kubernetes admin panel
   config.vm.network "forwarded_port", guest: 3000, host: 3000 #python application
 
