@@ -7,7 +7,7 @@ metadata:
 spec:
   storageClassName: manual
   capacity:
-    storage: 2Gi
+    storage: 2Gi # diskimde yer kalmamış bu başımı çok ağrıttı. :) 20Gi defaulttu yer yok o yüzden düşürdüm. direct allocate ediyor sanırım. yer olmayınca da baştan crash veriyor
   accessModes:
     - ReadWriteOnce
   hostPath:
